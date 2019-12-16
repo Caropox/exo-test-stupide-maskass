@@ -8,10 +8,15 @@ button
     border-radius: 10px;
     background-color: red;
 }
-img
+.card
 {
     width: 326px;
     height: 552px;
-    text-align: center;
-    background-image: url('images/dos.png');
+    margin: 0 auto;
+    background-image: url('../images/dos.png');
+}
+
+button:active ~ .card
+{
+    background-image: url('../images/face.png');
 }
