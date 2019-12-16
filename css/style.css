@@ -1,0 +1,17 @@
+body
+{
+    margin: 0;
+    text-align: center;
+}
+button
+{
+    border-radius: 10px;
+    background-color: red;
+}
+img
+{
+    width: 326px;
+    height: 552px;
+    text-align: center;
+    background-image: url('images/dos.png');
+}
